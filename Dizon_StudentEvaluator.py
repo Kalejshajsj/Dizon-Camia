@@ -3,8 +3,11 @@ score1 = 0
 score2 = 0
 score3 = 0
 performance_level = ""
+
 def display_header():
+    print("==========================")
     print("Student Performance Report")
+    print("==========================")
 display_header()
 def get_student_info():
     global score1, score2, score3, name
